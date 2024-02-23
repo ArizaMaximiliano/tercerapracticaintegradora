@@ -1,0 +1,12 @@
+<article>
+    <form action="/api/premium/{{user._id}}" method="POST">
+        <header>
+            <h1>Cambiar premium/usuario</h1>
+        </header>
+        <p>Email: {{user.email}}</p>
+        <p>Rol: {{user.role}}</p>
+        <footer>
+            <button type="submit">Cambiar rol</button>
+        </footer>
+    </form>
+</article>

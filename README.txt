@@ -1,0 +1,3 @@
+-Al apretar recuperar contraseña, envia un correo a la direccion especificada. Dentro hay un link a una pagina que permite hacer el cambio de contraseña a una nueva. No permite la contraseña anterior. En caso de expirar el enlace se permite generar uno nuevo mediante la pagina expired.
+-Se establecio un rol premium que puede crear productos. Se creo una pagina que permite cambiar el usuario a premium. El usuario premium solo puede borrar sus productos y este no puede agregar los mismo productos que creo a su cart.
+-Se agrego el campo owner que guarda el id del creador, caso de no tener es admin.
